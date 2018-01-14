@@ -14,10 +14,10 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: "Lore Pirri"
+author: "Richard Borges"
 image: /thumbnail-jumbo.png
 twitter:
-  username: lorepirri
+  #username: lorepirri
 #  site:
 facebook:
   #publisher: 1592372034171500
