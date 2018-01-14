@@ -13,19 +13,63 @@ tags:
   
 ---
 
-I was finally prodded into action when my blog site certificate expired. 
+I was finally prodded into action when my wordpress blog site certificate expired. 
 
-Using a few excellent resources are available on the interwebs, I was able to run (generate in jekyll) the site locally on a Windows 10 machine. 
+Using a few excellent resources are available on the interwebs, I was able to run (generate in jekyll) the site locally on a Windows 10 machine and push it to github, which hosts for free ! 
 
+### Running the site locally. 
 The main steps where
 1. Install jekyll on Windows 10 bash ( Bash on Ubuntu on Windows ) using instructions at https://jekyllrb.com/docs/windows/
-2. How to run locally ?
-    1. Open a bash shell window
-    2. bash$ cd /mnt/d/RichardBorges.github.io
-    3. bash$ bundle exec jekyll serve
+2. I used my d drive to create a directory for my blog site (appears in mnt in bash)
+3. I liked the [Cayman theme](https://pages-themes.github.io/cayman/) so downloaded it from github 
+4. How to run locally ?
+    1. Open a bash shell window  
+    ``` 
+    cd /mnt/d/RichardBorges.github.io 
+    ```  ==> i.e. my local directory on d drive where the cayman theme has been unzipped
+    3. ``` bundle exec jekyll serve ```  this starts up the website locally
     4. browse to  http://127.0.0.1:4000 
+    5. add new posts
+    6. rinse and repeat
 
-These websites proved invaluable: 
+### Running the site at username.github.io
+1. Commit the changes to the local github repository. As the site is gerated locally by jekyll, I only commit the fully built site to github. The fully build website is found at _site/
+2. In bash shell
+  ```
+  cd _site/ 
+  git add . 
+  git commit -m "This is the initial commit of my blog"
+  git remote add origin https://github.com/richardborges/richardborges.github.io.git
+  git push -u origin master
+  ```
+3. If the remote repository ( at github ) has not been setup, check using
+```
+  git remote -v
+  git config --global user.name "richardborges"
+  git config --global user.email "richardborges@company.com"  
+  git remote -v
+```
+4. push your changes to remote
+```
+  git push -u origin master
+```
+You should now be able to see your site at richardborges.github.io
+
+### Pointing richardborges.net to richardborges.github.io
+1. Firstly I added https://github.com/richardborges/richardborges.github.io.git . Go to settings >> custom domain  ![custom domain](/assets/images/posts/2018/01/CustomDomain.github.PNG)
+This creates a CNAME file in the remote repository ( remember to pull it to local later on)
+
+2. We need to find the IP address of the remote, so use dig in bash shell
+```
+dig richardborges.github.io
+```
+![dig in bash shell](/assets/images/posts/2018/01/digrichardborges.github.io.PNG)
+3. Now we need to update our DNS record ( at the the DNS hoster to point to the github.io IP address)
+![DNS maintenance](/assets/images/posts/2018/01/DNSmaintenance.PNG)
+4. Now I can use richardborges.net to visit my blog. Yay.
+
+
+### These websites proved invaluable: 
 
 [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
