@@ -19,6 +19,7 @@ Using a few excellent resources available on the interwebs, I was able to run (g
 
 ### Running the site locally. 
 The main steps where
+0. Make sure you have [ Bash on Ubuntu on Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and have visited [jekyll on Windows](https://jekyllrb.com/docs/windows/)
 1. Install jekyll on Windows 10 bash ( Bash on Ubuntu on Windows ) using instructions at https://jekyllrb.com/docs/windows/
 2. I used my d drive to create a directory for my blog site (appears in mnt in bash)
 3. I liked the [Cayman theme](https://pages-themes.github.io/cayman/) so downloaded it from github 
