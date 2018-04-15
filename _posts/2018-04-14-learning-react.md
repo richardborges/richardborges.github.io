@@ -13,7 +13,7 @@ tags:
   
 ---
 
-To come to grips with react, I completing a few courses on react at PluralSight, which helped me get a better understanding of react. 
+To come to grips with react, I completing a few courses on react at PluralSight, which helped me get a better understanding of react.
 
 I also found the facebook maintained react page worth a visit.
 
