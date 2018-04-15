@@ -15,7 +15,7 @@ tags:
 
 I was finally prodded into action when my wordpress blog site certificate expired. 
 
-Using a few excellent resources are available on the interwebs, I was able to run (generate in jekyll) the site locally on a Windows 10 machine and push it to github, which hosts for free ! 
+Using a few excellent resources available on the interwebs, I was able to run (generate in jekyll) the site locally on a Windows 10 machine and then push it to github (richardborges.github.io), which hosts for free ! 
 
 ### Running the site locally. 
 The main steps where
@@ -32,8 +32,8 @@ The main steps where
     5. add new posts
     6. rinse and repeat
 
-### Running the site at username.github.io
-1. Commit the changes to the local github repository. As the site is gerated locally by jekyll, I only commit the fully built site to github. The fully build website is found at _site/
+### Running the site at richarborges.github.io
+1. Commit the changes to the local github repository. As the site is generated locally by jekyll, I only commit the fully built site to github. The fully build website is found at _site/
 2. In bash shell
   ```
   cd _site/ 
