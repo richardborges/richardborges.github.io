@@ -24,7 +24,7 @@ The main steps where
 2. I used my d drive to create a directory for my blog site (appears in mnt in bash)
 3. I liked the [Cayman theme](https://pages-themes.github.io/cayman/) so downloaded it from github 
 4. How to run locally ?
-    1. Open a bash shell window  
+    1. Open a bash shell window  ( not git bash, the desktop app, but bash the command). You can now mount the drive where your blog is saved (locally)
     ``` 
     cd /mnt/d/RichardBorges.github.io 
     ```  ==> i.e. my local directory on d drive where the cayman theme has been unzipped
