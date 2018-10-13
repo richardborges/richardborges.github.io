@@ -12,6 +12,7 @@ categories:
 tags:
   
 ---
+[updated] 13 Oct 2018
 
 I was finally prodded into action when my wordpress blog site certificate expired. 
 
@@ -24,17 +25,18 @@ The main steps where
 2. I used my d drive to create a directory for my blog site (appears in mnt in bash)
 3. I liked the [Cayman theme](https://pages-themes.github.io/cayman/) so downloaded it from github 
 4. How to run locally ?
-    1. Open a bash shell window  ( not git bash, the desktop app, but bash the command). You can now mount the drive where your blog is saved (locally)
+    1. Open a bash shell window  ( not git bash, the desktop app, but bash, the command). You can now mount the drive where your blog is saved (locally)
     ``` 
     cd /mnt/d/RichardBorges.github.io 
-    ```  ==> i.e. my local directory on d drive where the cayman theme has been unzipped
-    3. ``` bundle exec jekyll serve ```  this starts up the website locally
+    ```  
+    ==> i.e. my local directory on d drive where the cayman theme has been unzipped
+    3. ``` bundle exec jekyll serve ```, this starts up the website locally
     4. browse to  http://127.0.0.1:4000 
     5. add new posts
     6. rinse and repeat
 
 ### Running the site at richarborges.github.io
-1. Commit the changes to the local github repository. As the site is generated locally by jekyll, I only commit the fully built site to github. The fully build website is found at _site/
+1. Commit your local changes to your local github repository. As the site is generated locally by jekyll, I only commit the fully built site to github. The fully build website is found at _site/
 2. In bash shell
   ```
   cd _site/ 
@@ -57,7 +59,8 @@ The main steps where
 You should now be able to see your site at richardborges.github.io
 
 ### Pointing richardborges.net to richardborges.github.io
-1. Firstly I added https://github.com/richardborges/richardborges.github.io.git . Go to settings >> custom domain  ![custom domain](/assets/images/posts/2018/01/CustomDomain.github.PNG)
+1. Firstly I added https://github.com/richardborges/richardborges.github.io.git . Go to settings >> custom domain  
+![custom domain](/assets/images/posts/2018/01/GitHub.Pages2.jpg)
 This creates a CNAME file in the remote repository ( remember to pull it to local later on)
 
 2. We need to find the IP address of the remote, so use dig in bash shell
@@ -66,11 +69,12 @@ dig richardborges.github.io
 ```
 ![dig in bash shell](/assets/images/posts/2018/01/digrichardborges.github.io.PNG)
 3. Now we need to update our DNS record ( at the the DNS hoster to point to the github.io IP address)
-![DNS maintenance](/assets/images/posts/2018/01/DNSmaintenance.PNG)
+![DNS maintenance](/assets/images/posts/2018/01/Domain.Arecord.jpg)
+Also see [Setting up an apex domain](https://help.github.com/articles/setting-up-an-apex-domain/)
 4. Now I can use richardborges.net to visit my blog. Yay.
 
 
-### These websites proved invaluable: 
+### These websites proved invaluable... 
 
 [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
