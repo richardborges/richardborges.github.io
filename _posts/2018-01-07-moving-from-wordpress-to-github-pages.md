@@ -60,7 +60,7 @@ You should now be able to see your site at richardborges.github.io
 
 ### Pointing richardborges.net to richardborges.github.io
 1. Firstly I added https://github.com/richardborges/richardborges.github.io.git . Go to settings >> custom domain  
-![custom domain](/assets/images/posts/2018/01/GitHub.Pages2.jpg)
+![custom domain](/assets/images/posts/2018/01/customdomain.https.png)
 This creates a CNAME file in the remote repository ( remember to pull it to local later on)
 
 2. We need to find the IP address of the remote, so use dig in bash shell
@@ -69,7 +69,7 @@ dig richardborges.github.io
 ```
 ![dig in bash shell](/assets/images/posts/2018/01/digrichardborges.github.io.PNG)
 3. Now we need to update our DNS record ( at the the DNS hoster to point to the github.io IP address)
-![DNS maintenance](/assets/images/posts/2018/01/Domain.Arecord.jpg)
+![DNS maintenance](/assets/images/posts/2018/01/arecords.png)
 Also see [Setting up an apex domain](https://help.github.com/articles/setting-up-an-apex-domain/)
 4. Now I can use richardborges.net to visit my blog. Yay.
 
