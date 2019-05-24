@@ -14,6 +14,6 @@ Here listed some resources which provide  a saas service as a backend for forms 
 2. [FormKeep](https://formkeep.com/guides/contact-form-jekyll)
 3. [Simple Form](https://getsimpleform.com/)
 
-{% endcomment %}
+{% endcomment %} 
 
 [Go to the Home Page]({{ site.url }}{{ site.baseurl }})

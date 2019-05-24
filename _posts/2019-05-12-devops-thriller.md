@@ -8,11 +8,11 @@ guid: https://richardborges.net/?p=1037
 permalink: /devops-thriller/
 categories:
   - Books    
-tags:
+tags: devops
   
 ---
 
-Who would have thought DevOps could be so intersting. Read a version of this about 5 years ago and now there is a Kindle version avaialble. 
+Who would have thought DevOps could be so intersting? I read a version of this about 5 years ago and recently found that there is a Kindle version avaialble. 
 The book is 
 #### The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win Kindle Edition 
 ##### by Gene Kim (Author), Kevin Behr (Author), George Spafford (Author) 
