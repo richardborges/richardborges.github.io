@@ -20,7 +20,7 @@ For a while, I have been using the Windows bash shell to run the blog locally wh
 bundle exec jekyll serve
 ```
 in the terminal window and this will build and launch the site locally at http://127.0.0.1:4000.
-![screenshot](/assets/images/posts/2019/05/vscode.editor.png)
+![screenshot](/assets/images/posts/2019/05/vscodeeditor.png)
 1. Once you have finished editing, its time to use the 'Source control' tools to add (stage the changes) and commit to git hub. All within VS Code. 
-![Add to GitHub](/assets/images/posts/2019/05/vscode.GitHub.png)
-1. Committing to GitHub, generates the latest blog post at [GitHub](https:richardborges.github.io)  
+![Add to GitHub](/assets/images/posts/2019/05/vscodegithub.png)
+1. Commit and push to GitHub. This generates the latest blog post at [GitHub](https://richardborges.github.io)  
