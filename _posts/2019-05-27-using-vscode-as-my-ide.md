@@ -14,7 +14,8 @@ tags: vscode
 
 For a while, I have been using the Windows bash shell to run the blog locally while I edit and then used the bash shell to commit my changes to Github. I've now started using VS Code to edit and deploy my blog, all from VS Code. How do I do this?
 1. Launch VS Code ( Visual Studio Code) and open up the folder of the blog e.g. D:\RichardBorges.github.io
-1. In the terminal window ( in VSCode ) ensure that you have a wsl terminal ( Windows Subsystem for Linux). I'm running Windows 10, i.e. a Windows bash shell. Read more [here] (https://code.visualstudio.com/docs/editor/integrated-terminal)
+1. In the terminal window ( in VSCode ) ensure that you have a wsl terminal ( Windows Subsystem for Linux). I'm running Windows 10, i.e. a Windows bash shell. Read more 
+[here](https://code.visualstudio.com/docs/editor/integrated-terminal)
 1. Type 
 ```bash
 bundle exec jekyll serve
