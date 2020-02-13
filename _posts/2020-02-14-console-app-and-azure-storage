@@ -1,0 +1,15 @@
+---
+id: 1042
+title: C# console app to consume Azure storage
+date: 2020-02-28T05:25:38+00:00
+author: Richard Borges
+layout: post
+guid: https://richardborges.net/?p=1042
+permalink: /console-app-and-azure-storage/
+categories:
+  - Software
+tags: Software
+
+---
+
+I wanted to test out connection a console app to Azure storage.
