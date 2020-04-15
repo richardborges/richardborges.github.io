@@ -20,11 +20,11 @@ So far so good. However on visiting the site I see this error:
 >   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
 
 Hmmm. The code runs perfectly locally, where is this error coming from?  I updated the web.config and eventually added the connection strings to Azure App Service > Configuration
-![Connection string in Azure App Service](/assets/images/posts/2020/04/AppServiceConnectionString.png)
+![Connection string in Azure App Service](/assets/images/posts/2020/04/appserviceconnectionstring.png)
 
 No luck.
 
 Then I found the Azure App Service > Diagnose and solve problems > Diagnostic Tools > Profiler 
-![Diagnose and solve problems](/assets/images/posts/2020/04/AppServiceDiagnosticTools.png)
+![Diagnose and solve problems](/assets/images/posts/2020/04/appservicediagnostictools.png)
 
 Then selected the "Check Connection String", et voila the error is seen in a web.config under the Views. That saved the day for me. There are a few other tools on that page which I will investigate down the track. For now this was a good find !
