@@ -1,6 +1,6 @@
 ---
 id: 1044
-title: Microsoft's 30 days to learn it ?
+title: Microsoft's 30 days to learn it
 date: 2021-03-21T05:25:38+00:00
 author: Richard Borges
 layout: post
@@ -39,5 +39,5 @@ I am planning to invest time in these three:
 - Advise stakeholders and translate business requirements into cloud solutions.
 
 
-I plan to stick with the daily learning. It helps that I am familiar with the material :smiley: .
+I plan to stick with the daily learning. It helps that I am familiar with the material :smiley: 
 
