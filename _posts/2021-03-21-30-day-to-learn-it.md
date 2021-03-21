@@ -39,5 +39,5 @@ I am planning to invest time in these three:
 - Advise stakeholders and translate business requirements into cloud solutions.
 
 
-I plan to stick with the daily learning. It helps that I am familiar with the material :smiley: 
+I plan to stick with the daily learning. It helps that I am already familiar with the material.
 
