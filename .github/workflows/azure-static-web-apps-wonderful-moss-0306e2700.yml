@@ -22,6 +22,8 @@ jobs:
         uses: ruby/setup-ruby@v1.59.1
         with:
           ruby-version: 2.6
+      - name: Install gem dependencies
+        run: gem install kramdown-parser-gfm
       - name: Install dependencies
         run: bundle install
       - name: Jekyll build
